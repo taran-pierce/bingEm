@@ -31,3 +31,9 @@ Basic commands you can run with the app.
 Compile Scss and start App: `npm run start`
 
 Compile scss: `npm run sass`
+
+### Set up instructions
+* `git clone https://github.com/taran-pierce/bingEm.git`
+* `cd bingEm`
+* `npm install`
+* `npm run start`
