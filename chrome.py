@@ -12,7 +12,7 @@ url = 'https://bing.com/search?q='
 words = [
   'test',
   'testing',
-  'taran',
+  'what is your name',
   'dragon fruit',
   'things to say',
   'find a house',
@@ -42,14 +42,12 @@ words = [
   'get out of here taco',
   'thats a bad dog',
   'she is so brilliant',
-  'big declious lunch'
+  'big lunch'
 ]
 
 new_word = ''
 
 for word in words:
-  new_word = word + ' in ' + lang[0]
+  new_word = 'How do you say ' + word + ' in ' + lang[0]
   new_url = url + new_word
   webbrowser.get(chrome_path).open(new_url)
-
-webbrowser.get(chrome_path).open(url)

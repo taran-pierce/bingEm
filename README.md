@@ -10,5 +10,7 @@ You have to be logged into your Microsoft live account for it to count the point
 |-chrome.py
 ```
 
-## Commands
-`python chrome.py [spanish|french|german|etc]`
+## Instructions 
+* Open Chrome and make sure to log into your Microsoft Account
+** when you go to bing.com, you should be able to see your badge and points
+* in root of the repo run: `python chrome.py [spanish|french|german|etc]`
