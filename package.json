@@ -1,0 +1,28 @@
+{
+  "name": "bingem",
+  "version": "2.0.0",
+  "description": "helper for using bing",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taran-pierce/bingEm.git"
+  },
+  "keywords": [
+    "bing",
+    "microsoft",
+    "points",
+    "winning"
+  ],
+  "author": "Taran Pierce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taran-pierce/bingEm/issues"
+  },
+  "homepage": "https://github.com/taran-pierce/bingEm#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
